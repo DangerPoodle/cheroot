@@ -18,7 +18,7 @@ cryptography==2.8         # via pyopenssl, trustme
 docopt==0.6.2             # via pytest-watch
 dragonmapper==0.2.6       # via charset-normalizer
 execnet==1.7.1            # via pytest-xdist
-hanzidentifier==1.0.2     # via dragonmapper
+hanzidentifier==1.1.0     # via dragonmapper
 idna==2.8                 # via requests, trustme
 importlib-metadata==1.1.3  # via pluggy, pytest
 importlib-resources==1.0.2  # via jaraco.text
@@ -42,12 +42,12 @@ pytest-cov==2.8.1 ; python_version == "3.4"
 pytest-forked==1.1.3 ; sys_platform != "win32" and python_version >= "3.0" and python_version <= "3.4"
 pytest-mock==2.0.0
 pytest-rerunfailures==8.0 ; python_version <= "2.7" or python_version == "3.4"
-pytest-sugar==0.9.5
+pytest-sugar==0.9.6
 pytest-watch==4.2.0
 pytest-xdist==1.31.0
 pytest==4.6.11
-pytz==2022.2.1            # via tempora
-requests-toolbelt==0.9.1
+pytz==2023.3              # via tempora
+requests-toolbelt==0.10.1
 requests-unixsocket==0.3.0
 requests==2.21.0
 scandir==1.10.0           # via pathlib2
@@ -58,9 +58,9 @@ trustme==0.9.0
 typing==3.10.0.0          # via importlib-resources, pathlib2
 urllib3==1.24.3 ; python_version == "3.4"
 watchdog==0.10.7 ; python_version < "3.6"
-wcwidth==0.2.5            # via pytest
+wcwidth==0.2.6            # via pytest
 yg.lockfile==2.3          # via jaraco.context
-zc.lockfile==2.0          # via yg.lockfile
+zc.lockfile==3.0          # via yg.lockfile
 zhon==1.1.5               # via charset-normalizer, dragonmapper, hanzidentifier
 zipp==1.2.0               # via importlib-metadata
 
