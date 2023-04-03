@@ -19,7 +19,7 @@ cffi==1.15.1
     # via cryptography
 chardet==4.0.0
     # via requests
-colorama==0.4.5
+colorama==0.4.6
     # via
     #   pytest
     #   pytest-watch
@@ -50,7 +50,7 @@ funcsigs==1.0.2
     # via
     #   mock
     #   pytest
-futures==3.3.0 ; python_version == "2.7"
+futures==3.4.0 ; python_version == "2.7"
     # via -r requirements/tox-py27-cp27-win32-amd64.in
 idna==2.10
     # via
@@ -122,7 +122,7 @@ pytest-mock==2.0.0
     # via -r requirements/tox-py27-cp27-win32-amd64.in
 pytest-rerunfailures==8.0 ; python_version <= "2.7" or python_version == "3.4"
     # via -r requirements/tox-py27-cp27-win32-amd64.in
-pytest-sugar==0.9.5
+pytest-sugar==0.9.6
     # via -r requirements/tox-py27-cp27-win32-amd64.in
 pytest-watch==4.2.0
     # via -r requirements/tox-py27-cp27-win32-amd64.in
@@ -138,9 +138,9 @@ pytest==4.6.11
     #   pytest-sugar
     #   pytest-watch
     #   pytest-xdist
-pytz==2022.2.1
+pytz==2023.3
     # via tempora
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.1
     # via -r requirements/tox-py27-cp27-win32-amd64.in
 requests-unixsocket==0.3.0
     # via -r requirements/tox-py27-cp27-win32-amd64.in
@@ -183,7 +183,7 @@ typing==3.10.0.0
     # via
     #   importlib-resources
     #   pathlib2
-urllib3==1.26.12 ; python_version != "3.4"
+urllib3==1.26.15 ; python_version != "3.4"
     # via
     #   -r requirements/tox-py27-cp27-win32-amd64.in
     #   requests
@@ -191,7 +191,7 @@ watchdog==0.10.7 ; python_version < "3.6"
     # via
     #   -r requirements/tox-py27-cp27-win32-amd64.in
     #   pytest-watch
-wcwidth==0.2.5
+wcwidth==0.2.6
     # via pytest
 yg.lockfile==2.3
     # via jaraco.context
