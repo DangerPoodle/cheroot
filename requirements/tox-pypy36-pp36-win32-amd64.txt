@@ -6,9 +6,9 @@
 #
 atomicwrites==1.4.1
     # via pytest
-attrs==22.1.0
+attrs==22.2.0
     # via pytest
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 cffi==1.15.1
     # via cryptography
@@ -42,6 +42,7 @@ importlib-metadata==4.8.3 ; python_version < "3.8"
     #   cheroot (setup.cfg)
     #   pluggy
     #   pytest
+    #   pytest-rerunfailures
 importlib-resources==5.4.0
     # via jaraco.text
 iniconfig==1.1.1
@@ -64,6 +65,7 @@ more-itertools==8.14.0 ; python_version >= "3.6"
 packaging==21.3
     # via
     #   pytest
+    #   pytest-rerunfailures
     #   pytest-sugar
 pluggy==1.0.0
     # via pytest
@@ -73,7 +75,6 @@ py==1.11.0
     # via
     #   pypytools
     #   pytest
-    #   pytest-forked
 pyopenssl==21.0.0 ; implementation_name == "pypy" and python_version < "3.8"
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
 pyparsing==3.0.9
@@ -84,7 +85,6 @@ pytest==6.2.5
     # via
     #   -r requirements/tox-pypy36-pp36-win32-amd64.in
     #   pytest-cov
-    #   pytest-forked
     #   pytest-mock
     #   pytest-rerunfailures
     #   pytest-sugar
@@ -92,26 +92,24 @@ pytest==6.2.5
     #   pytest-xdist
 pytest-cov==2.12.0 ; python_version != "3.4"
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
-pytest-forked==1.4.0
-    # via pytest-xdist
 pytest-mock==3.6.1
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
-pytest-rerunfailures==10.2 ; python_version >= "3.6"
+pytest-rerunfailures==10.3 ; python_version >= "3.6"
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
-pytest-sugar==0.9.5
+pytest-sugar==0.9.6
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
 pytest-watch==4.2.0
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
-pytest-xdist==2.5.0
+pytest-xdist==3.0.2
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
-pytz==2022.2.1
+pytz==2023.3
     # via tempora
 requests==2.27.1
     # via
     #   -r requirements/tox-pypy36-pp36-win32-amd64.in
     #   requests-toolbelt
     #   requests-unixsocket
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.1
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
 requests-unixsocket==0.3.0
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
@@ -132,17 +130,13 @@ trustme==0.9.0
     # via -r requirements/tox-pypy36-pp36-win32-amd64.in
 typing-extensions==4.1.1
     # via importlib-metadata
-urllib3==1.26.12 ; python_version != "3.4"
+urllib3==1.26.15 ; python_version != "3.4"
     # via
     #   -r requirements/tox-pypy36-pp36-win32-amd64.in
     #   requests
-watchdog==2.1.9
+watchdog==2.3.1
     # via pytest-watch
 zipp==3.6.0
     # via
     #   importlib-metadata
     #   importlib-resources
-
-# The following packages are considered to be unsafe in a requirements file:
-setuptools==59.6.0
-    # via pytest-rerunfailures
