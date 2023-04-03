@@ -94,7 +94,7 @@ pytest-mock==3.5.1
     # via -r requirements/tox-py35-cp35-win32-amd64.in
 pytest-rerunfailures==9.1.1 ; python_version == "3.5"
     # via -r requirements/tox-py35-cp35-win32-amd64.in
-pytest-sugar==0.9.5
+pytest-sugar==0.9.6
     # via -r requirements/tox-py35-cp35-win32-amd64.in
 pytest-watch==4.2.0
     # via -r requirements/tox-py35-cp35-win32-amd64.in
@@ -110,9 +110,9 @@ pytest==6.1.2
     #   pytest-sugar
     #   pytest-watch
     #   pytest-xdist
-pytz==2022.2.1
+pytz==2023.3
     # via tempora
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.1
     # via -r requirements/tox-py35-cp35-win32-amd64.in
 requests-unixsocket==0.3.0
     # via -r requirements/tox-py35-cp35-win32-amd64.in
